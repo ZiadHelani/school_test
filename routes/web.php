@@ -19,3 +19,6 @@ Route::get('/', function () {
 Route::get('/new', function () {
     return view('welcome');
 });
+Route::get('/new2', function () {
+    return view('welcome');
+});
